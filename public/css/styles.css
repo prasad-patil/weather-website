@@ -1,0 +1,113 @@
+body {
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #dedede;
+  margin-top: 16px;
+}
+
+header {
+  margin: 16px 0 18px 0;
+}
+.main-container {
+  flex-grow: 1;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+#navbar {
+  margin-bottom: 15px;
+}
+
+#navbar a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #777777;
+}
+
+#navbar a:nth-of-type(1) {
+  padding-left: 0px;
+}
+
+img.my-pic {
+  width: 250px;
+}
+
+.error {
+  color: red;
+}
+
+input[type='text'] {
+  width: 71%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  background-color: #8c8e8c;
+  color: white;
+  padding: 12px 24px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #59675a;
+}
+
+.form-content {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  background-color: #F9F9F9;
+  border: 1px solid #d6d6d6;
+  padding: 20px;
+}
+
+.info {
+  font-size: 15px;
+  color: #989898;
+  font-weight: 500;
+}
+
+#message-2 {
+  color: #524d4d;
+  font-weight: 500;
+  font-size: 19px;
+  word-spacing: 5px;
+  letter-spacing: 0px;
+}
+
+.success {
+  color: #404040;
+  font-weight: 600;
+  font-size: 19px;
+  word-spacing: 5px;
+  letter-spacing: 0px;
+  text-decoration: solid;
+}
